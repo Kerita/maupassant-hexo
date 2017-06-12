@@ -1,6 +1,6 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: ## Your disqus_shortname, e.g. username
+disqus: keritasblog
 uyan: ## Your uyan_id. e.g. 1234567
 gentie: ## Your gentie_productKey, e.g. fc799538c7ad4cf5a5a0c2877a90cbd7
 google_search: true ## Use Google search, true/false.
@@ -22,7 +22,10 @@ menu:
     icon: fa-home
   - page: archive
     directory: archives/
-    icon: fa-archive
+    icon: fa-archive  
+  - page: guestbook
+    directory: guestbook/
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
@@ -39,12 +42,12 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 阮一峰的网络日志
+    url: http://www.ruanyifeng.com/blog
+  - title: 廖雪峰的官网网站
+    url: http://www.liaoxuefeng.com
+  - title: 小胡子哥的博客
+    url: http://www.barretlee.com/entry
 
 timeline:
   - num: 1
