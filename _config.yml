@@ -1,13 +1,13 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
-duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: ## Your disqus_shortname, e.g. username
+duoshuo: ##vkerita
+disqus: keritasblog
 google_search: true ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
-baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+baidu_analytics: 60e221770b855c8f040bad9360755b08
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
@@ -20,6 +20,9 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: guestbook
+    directory: guestbook/
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
@@ -36,12 +39,16 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 阮一峰
+    url: http://www.ruanyifeng.com/blog
+  - title: 小胡子哥
+    url: http://www.barretlee.com/entry
+  - title: 晚晴幽草轩
+    url: http://www.jeffjade.com/
+  - title: bibodeng
+    url: http://bibodeng.com
+  - title: daoluan
+    url: http://daoluan.net/blog
 
 timeline:
   - num: 1
