@@ -31,8 +31,10 @@ block content
     if theme.shareto == true
       script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
       a.article-share-link(data-url='#{page.permalink}', data-id='#{page._id}')= __('shareto')
+    
     include _partial/tag
     include _partial/post_nav
+    include _partial/drinks    
     if theme.duoshuo
       div(class='ds-share flat' data-thread-key=page.path, data-title=page.title, data-url=page.permalink)
          .ds-share-inline
@@ -48,4 +50,5 @@ block content
               li
                 a(class='ds-wechat' href='javascript:void(0);' data-service='wechat') 微信
             .ds-share-icons-more
+   
     include _partial/comments

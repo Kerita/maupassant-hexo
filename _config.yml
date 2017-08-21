@@ -32,6 +32,7 @@ menu:
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
+  - netease_music
   - category
   - tag
   - recent_posts
@@ -43,6 +44,8 @@ links:
     url: http://www.ruanyifeng.com/blog
   - title: 小胡子哥
     url: http://www.barretlee.com/entry
+  - title: 屈光宇
+    url: https://imququ.com/
   - title: 晚晴幽草轩
     url: http://www.jeffjade.com/
   - title: bibodeng
